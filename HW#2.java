@@ -23,7 +23,7 @@ class Incrementer extends Thread {
 
     public void run() {
         while (true) {
-            increment();
+        increment();
             try {
                 Thread.sleep(1000);
             }catch (InterruptedException e){
@@ -38,19 +38,20 @@ class Incrementer extends Thread {
 
 class Decrementer extends Thread {
     public void decrement() {
-        if (Box.value >= -3) {
+        if (Box.value>=-3) {
             Box.value--;
-            try {
-                Thread.sleep(1000);
-            }catch (InterruptedException e){
-                e.printStackTrace();
-            }
+           
         }
     }
 
     public void run() {
         while (true) {
-            decrement();
+        decrement();
+        try {
+            Thread.sleep(1000);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
         }
     }
 }
@@ -58,7 +59,7 @@ class Decrementer extends Thread {
 class Printer extends Thread {
     public void print() {
         if (Box.value>=0) {System.out.println(Box.value);
-                    }else System.err.print(Box.value);
+                    }else  System.err.print(Box.value);
     }
 
     public void run() {
