@@ -124,3 +124,5 @@ class Printer extends Thread {
 "name": "London",
 "cod": 200
 }
+
+http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=643de6e2612540764f204114e57b4823
