@@ -1,10 +1,11 @@
   public class Box {
 	 public static Integer value = 0;
     public static void main(String[] args) {
-        Incrementer Obj1=new Incrementer();
+        //Incrementer Obj1=new Incrementer();
         Decrementer Obj2=new Decrementer();
         Printer Obj3=new Printer();
-          Obj1.start();
+         // Obj1.start();
+	    Thread t = new Thread(Incrementer)
           Obj2.start();
           Obj3.start();
     }
@@ -13,7 +14,7 @@
 }
 
  
-class Incrementer extends Thread {
+class Incrementer implements Runnable {
 
     public void increment() {
         if (Box.value<=3) {
@@ -73,3 +74,5 @@ class Printer extends Thread {
         }
     }
 }
+
+///"{ \"name\": \"Ion\",\"age\":25 }"
