@@ -75,4 +75,4 @@ class Printer extends Thread {
     }
 }
 
-///"{ \"name\": \"Ion\",\"age\":25 }"
+ 
