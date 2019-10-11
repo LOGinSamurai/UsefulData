@@ -74,5 +74,53 @@ class Printer extends Thread {
         }
     }
 }
-///643de6e2612540764f204114e57b4823
- 
+/// {
+"coord": {
+"lon": -0.13,
+"lat": 51.51
+},
+"weather": [
+{
+"id": 310,
+"main": "Drizzle",
+"description": "light intensity drizzle rain",
+"icon": "09n"
+},
+{
+"id": 500,
+"main": "Rain",
+"description": "light rain",
+"icon": "10n"
+}
+],
+"base": "stations",
+"main": {
+"temp": 288.47,
+"pressure": 1005,
+"humidity": 100,
+"temp_min": 287.04,
+"temp_max": 290.37
+},
+"visibility": 9000,
+"wind": {
+"speed": 8.7,
+"deg": 220,
+"gust": 13.9
+},
+"clouds": {
+"all": 75
+},
+"dt": 1570815988,
+"sys": {
+"type": 1,
+"id": 1412,
+"message": 0.0138,
+"country": "GB",
+"sunrise": 1570774610,
+"sunset": 1570814253
+},
+"timezone": 3600,
+"id": 2643743,
+"name": "London",
+"cod": 200
+}
