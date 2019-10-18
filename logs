@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building database- 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ database- ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/student/PROJECTS/Java/Catalin2019/database-/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ database- ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/student/PROJECTS/Java/Catalin2019/database-/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ database- ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/student/PROJECTS/Java/Catalin2019/database-/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ database- ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/student/PROJECTS/Java/Catalin2019/database-/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ database- ---
+[WARNING] The POM for org.apache.maven.surefire:surefire-booter:jar:2.12.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.surefire:maven-surefire-common:jar:2.12.4 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.reporting:maven-reporting-api:jar:2.0.9 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven:maven-toolchain:jar:2.0.9 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.965 s
+[INFO] Finished at: 2019-10-18T21:37:08+03:00
+[INFO] Final Memory: 14M/147M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project database-: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: Plugin org.apache.maven.plugins:maven-surefire-plugin:2.12.4 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.apache.maven.surefire:surefire-booter:jar:2.12.4, org.apache.maven.surefire:maven-surefire-common:jar:2.12.4, org.codehaus.plexus:plexus-utils:jar:3.0.8, org.apache.maven.reporting:maven-reporting-api:jar:2.0.9, org.apache.maven:maven-toolchain:jar:2.0.9, org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.1: Cannot access central (https://repo.maven.apache.org/maven2) in offline mode and the artifact org.apache.maven.surefire:surefire-booter:jar:2.12.4 has not been downloaded from it before. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
